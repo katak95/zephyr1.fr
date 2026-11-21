@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zephyr1 — Des apps légères, portées par le vent</title>
+  <meta name="description" content="Zephyr1 conçoit des applications simples et soignées : Brumelle, les histoires du soir inventées avec ton enfant, et Figolu, des notes de réunion IA privées.">
+  <meta name="theme-color" content="#07080c">
+  <link rel="canonical" href="https://zephyr1.fr/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zephyr1.fr/">
+  <meta property="og:title" content="Zephyr1">
+  <meta property="og:description" content="Des apps légères, portées par le vent.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+    <span class="grain"></span>
+  </div>
+
+  <header class="nav">
+    <a class="brand" href="/" aria-label="Zephyr1, accueil">
+      <img src="assets/favicon.svg" alt="" width="28" height="28">
+      <span>Zephyr<em>1</em></span>
+    </a>
+    <a class="nav-link" href="#projets">Projets</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow reveal">Studio indépendant · France</p>
+      <h1 class="reveal">Des apps légères,<br><em>portées par le vent.</em></h1>
+      <p class="lede reveal">Zephyr1 imagine et fabrique de petits logiciels utiles, simples et soignés, pour le quotidien des familles comme des pros.</p>
+      <a class="scroll-cue reveal" href="#projets">
+        Découvrir les projets
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 5v14m0 0-6-6m6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </section>
+
+    <section id="projets" class="projects" aria-labelledby="projets-title">
+      <div class="section-head reveal">
+        <h2 id="projets-title">Projets</h2>
+        <span class="count">02</span>
+      </div>
+
+      <div class="grid">
+        <a class="card reveal" style="--accent: 139 125 255; --accent-2: 96 165 250;" href="https://brumelle.app" target="_blank" rel="noopener">
+          <div class="card-top">
+            <span class="icon" aria-hidden="true">🦊</span>
+            <span class="tag">iOS</span>
+          </div>
+          <h3>Brumelle</h3>
+          <p class="tagline">Ton enfant raconte, Brumelle invente l'histoire.</p>
+          <p class="desc">Des histoires du soir uniques pour les 3–10 ans : l'enfant raconte une idée à voix haute, l'app l'écrit, l'illustre et la lit.</p>
+          <span class="cta">Découvrir brumelle.app <span class="arrow" aria-hidden="true">→</span></span>
+        </a>
+
+        <a class="card reveal" style="--accent: 245 176 86; --accent-2: 251 113 133;" href="https://github.com/katak95/figolu/releases" target="_blank" rel="noopener">
+          <div class="card-top">
+            <span class="icon" aria-hidden="true">🍪</span>
+            <span class="tag">macOS · Windows · Linux</span>
+          </div>
+          <h3>Figolu</h3>
+          <p class="tagline">Des notes de réunion IA, privées.</p>
+          <p class="desc">Enregistre tes appels sans bot, puis génère transcriptions et résumés en local. Libre et open source.</p>
+          <span class="cta">Télécharger sur GitHub <span class="arrow" aria-hidden="true">→</span></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Zephyr1</span>
+    <span class="muted">Fait avec soin, en France.</span>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
